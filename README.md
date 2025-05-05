@@ -4,6 +4,12 @@
 
 This Android application was developed as part of the online assessment for SMG (Swiss Marketplace Group). It displays a list of real estate properties fetched remotely, showcasing various features commonly found in modern Android applications.
 
+## Screenshots
+
+| Image             | Image             |
+|----------------------|----------------------|
+| <img width="625" alt="Screenshot 2025-05-05 at 22 30 50" src="https://github.com/user-attachments/assets/c1ed98a5-cf82-483c-8f3f-e4cd2ae8909b" />    | <img width="625" alt="Screenshot 2025-05-05 at 22 32 05" src="https://github.com/user-attachments/assets/677bf884-87f0-493e-a089-672685aca008" /> |
+
 ## Features Implemented
 
 *   **Property Listing:** Displays a vertical list of real estate items using Jetpack Compose `LazyColumn`.
