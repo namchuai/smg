@@ -13,8 +13,6 @@ This Android application was developed as part of the online assessment for SMG 
     *   Formatted Price overlayed on the bottom-left of the image (e.g., "3,000,000₣") with a distinct background and border.
     *   Formatted Address string (Street, Postal Code Locality, Region, Country) below the title.
 *   **Asynchronous Loading:** Utilizes `AsyncState` (Loading, Success, Error) pattern with Kotlin Coroutines and Flow to handle data fetching and UI updates.
-*   **Interactive Address:** Address text is clickable, attempting to open the property's coordinates (if available) in a map application using an Android Intent (`geo:` URI).
-    *   *Note:* Requires a map application (like Google Maps) to be installed on the device/emulator.
 *   **Bookmarking:** Users can tap a heart icon button on the top-right of the property image to toggle its bookmark status. The icon updates (`Favorite` / `FavoriteBorder`) to reflect the current state.
 *   **Dependency Injection:** Uses Koin for managing dependencies.
 *   **Modular Architecture:** The project is structured into multiple Gradle modules (e.g., `app`, `feature:listing`, `core:domain`, `core:designsystem`).
@@ -29,7 +27,7 @@ This Android application was developed as part of the online assessment for SMG 
 *   **Image Loading:** Coil
 
 ## URL to download APK
-
+https://github.com/namchuai/smg/releases/download/1.0/app-release.apk
 
 ## Setup & Build
 
@@ -45,4 +43,4 @@ This Android application was developed as part of the online assessment for SMG 
         The APK will be in `app/build/outputs/apk/release/`.
 5.  **Run:** Select the `app` configuration and run it on an Android emulator or physical device (API level 24+ recommended).
 
-** Note ** The app's performance will be better with release build.
+**Note** The app's performance will be better with release build.
