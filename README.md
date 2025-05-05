@@ -31,6 +31,8 @@ This Android application was developed as part of the online assessment for SMG 
 *   **Asynchronous Programming:** Kotlin Coroutines & StateFlow
 *   **Dependency Injection:** Koin
 *   **Image Loading:** Coil
+*   **Storage:** Room
+*   **Network:** Ktor
 
 ## URL to download APK
 https://github.com/namchuai/smg/releases/download/1.0/app-release.apk
